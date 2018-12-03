@@ -34,7 +34,7 @@ makeCacheMatrix <- function(x = matrix()) { ## define the argument with default 
 # In case inverse matrix from makeCacheMatrix((matrix) is empty, it gets the original matrix data from 
 # and set the invertible  matrix by using the solve function.
 
-# In case inverse matrix from makeCacheMatrix((matrix) has some value in it, 
+# In case if inverse matrix from makeCacheMatrix((matrix) has some value in it, 
 #it returns a message  "Getting Cached Invertible Matrix" and the cached object
 
 # please note than first time when cacheSolve() is run, the inverse will be NULL
